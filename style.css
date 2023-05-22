@@ -1,0 +1,783 @@
+/* ==============================================================
+Theme Name: Betterhalf - A Wedding Agency Bootstrap Template 
+Version: 1.0
+Author: Nazmus Shadhat
+Author URI: http://themepla.net
+
+
+[Table of contents]
+1.0 Typography
+2.0 Common Presets
+3.0 Hero Section Css
+4.0 Header Css
+	4.1 Main Menu Css
+	4.2 Sticky Header css
+5.0 Service Css
+6.0 Gallery Css
+	6.1 Gallery Bottom Slider Css
+7.0 About Us Css
+8.0 Events Css
+9.0 Testimonial Css
+10.0 Pricing Css
+11.0 Contact Css
+
+=================================================================== */
+ 
+/* ==============================================================
+							1.0 Typography
+=================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #4d4336;
+	
+}
+
+/* ==============================================================
+							2.0 Common Presets
+=================================================================== */
+html{
+	width: 100%;
+	height: 100% !important;
+}
+body{
+	width:100%;
+	height: 100%;
+	background: #e4e6da;
+	overflow-x: hidden;
+
+}
+.bh_intro_section {
+    padding-top: 82px;
+	padding-bottom: 120px;
+    text-align: center;
+
+}
+
+a:hover,a:focus{
+	text-decoration: none;
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+.bh_heading_text {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+.bh_shadow_text {
+    color: #d2d4c9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: -20px;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 800;
+	line-height: 100px;
+	z-index: 1;
+}
+.bh_heading_text h1 {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 200;
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.bh_no_padding{
+	padding: 0;
+}
+
+.bh-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+
+/* ==============================================================
+							3.0 Hero Section Css
+=================================================================== */
+.bh_hero_image{
+	width: 100%;
+	height: 100%;
+	background: url(img/bh_hero_image.jpg) no-repeat;	
+}
+.bh_hero_caption{
+	right: 18%;
+	left: 18%;
+	padding-bottom: 30px;
+	position: absolute;
+	bottom: 40%;
+	z-index: 10;
+	padding-top: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.bh_hero_caption h1{
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 300;
+}
+/* ==============================================================
+							4.0 Header Css
+=================================================================== */
+.bh_header_section{
+	background: #eef0e4;
+}
+.bh_header_section .container{
+	padding: 0px 0px 0px 30px;
+}
+.bh_logo{
+	padding: 35px 0px;
+}
+.bh_site_name{
+	font-family: 'Pacifico', cursive;
+	font-size: 36px;
+	color: #4d4336;
+}
+/* ========================
+		4.1 Menu Css
+=========================== */
+.bh_nav .navbar{
+	min-height: 0px;
+	margin-bottom: 0px;
+	padding: 35px 0;
+}
+.bh_nav .navbar-default{
+	background: none;
+	border: none;
+}
+.bh_nav .nav > li > a{
+	font-size: 16px;
+	font-weight: 700;
+	color: #4d4336;
+}
+.bh_nav .nav > li > a:hover{
+	color: #b5ab9e;
+}
+.bh_nav  .navbar-default .navbar-nav > .active > a, 
+.bh_nav  .navbar-default .navbar-nav > .active > a:focus,
+.bh_nav .navbar-default .navbar-nav > .active > a:hover {
+    color: #ffffff;
+    background-color: #4d4336;
+	-webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.bh_nav .navbar-nav {
+    float: right;
+}
+/* ========================
+		4.2 Sticky Header
+			Css
+=========================== */
+
+header.sticky {
+	width:100%;
+	position: fixed;
+  height: 60px;
+  background:rgba(238,240,228,.9);
+  text-align: left;
+	top:0px;
+	z-index: 99999;
+}
+header.sticky .bh_nav .navbar{
+	min-height: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0;
+}
+header.sticky  .bh_nav .nav > li > a {
+    line-height: 30px;
+}
+header.sticky .bh_logo{
+	padding: 0px 0px;
+}
+header.sticky .bh_site_name {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #4d4336;
+    line-height: 50px;
+}
+/* ==============================================================
+							5.0 Service Css
+=================================================================== */
+.bh_service_promo{
+	width: 100%;
+	margin: 79px 0px 0px 0px;
+}
+.bh_service_promo img{
+	background: #ffffff;
+	padding: 30px;
+}
+.bh_promo_details{
+	padding-top: 90px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: left;
+}
+.bh_promo_details h2{
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom: 80px;
+	
+}
+.bh_promo_details p{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.bh_right{
+	text-align: right;
+}
+/* ==============================================================
+							6.0 Gallery Css
+=================================================================== */
+#gallery{
+	background: #eef0e4;
+}
+.bh_show_more_button{
+	 margin-top: 27px;
+}
+.bh_show_more_button .show_more_button{
+	color: #4c4336;
+	border: 2px solid #4c4336;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: 800;
+	padding: 15px 40px;
+	background: #e4e6da;
+}
+.bh_show_more_button .show_more_button:hover{
+	color: #e4e6da;
+	border: 2px solid #4c4336;
+	background: #4c4336;
+}
+
+/* ========================
+		6.1 Gallery Bottom 
+			Slider Css
+=========================== */
+.bh_bottom_slider{
+	padding: 0px !important;
+	height: 100%;
+	overflow-y: hidden;
+}
+/* Main carousel style */
+.bh_bottom_slider .carousel {
+    width: 100%;
+	
+}
+.bh_bottom_slider .carousel-control.left, .bh_bottom_slider .carousel-control.right {
+  background: none !important;
+  filter: progid: none !important;
+  outline: 0;
+  font-size: 28px;
+  color: #b1b3aa;
+  text-shadow: none;
+ }
+.bh_bottom_slider .carousel .carousel-control {
+  visibility: hidden;
+}
+.bh_bottom_slider .carousel:hover .carousel-control {
+  visibility: visible;
+}
+/* Indicators list style */
+.indicators_bg{
+	background:rgba(0,0,0,.6);
+    width: 100%;
+    position: relative;
+    height: 90px;
+	bottom: 90px;
+}
+.bh_bottom_slider .carousel-indicators {
+    bottom: 0;
+    left: 20%;
+    margin-left: 5px;
+    width: 100%;
+}
+/* Indicators list style */
+.bh_bottom_slider .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 100px;
+}
+/* Indicators images style */
+.bh_bottom_slider .carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 100px;
+}
+/* Indicators active image style */
+.bh_bottom_slider .carousel-indicators .active img {
+    border: 2px solid #428BCA;
+    opacity: 0.7;
+}
+.bh_gallery_close{
+    position: absolute;
+    top: 55px;
+    z-index: 999999;
+    right: 30px;
+    font-size: 18px;
+    color: #fff;
+    background: #2e2e2f;
+    opacity: .6;
+    min-width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 7px 0px 10px 0px;
+	text-align: center;
+}
+.bh_gallery_close:hover{
+	color: aliceblue;
+	opacity: 1;
+}
+/* ==============================================================
+					  7.0 About Us Css
+=================================================================== */
+.bh_about_box{
+	margin: 99px 0px 0px 0px;
+}
+.bh_image_about img{
+	background: #fff;
+	padding: 25px;
+	margin-bottom: 75px;
+	
+}
+.bh_about_article{
+	padding: 0px 60px;
+}
+.bh_about_article p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	text-align: left;
+	color: #4c4336;
+}
+/* ==============================================================
+					  8.0 Events Css
+=================================================================== */
+#event{
+	background: #eef0e4;
+}
+.bh_event_slide{
+	padding: 110px 0px 0px 0px;
+}
+.bh_event_heading{
+	 font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 30px;
+    background: #dcded3;
+    padding: 73px 0px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.bh_event_slide img{
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	
+}
+.bh_event_slide .carousel-control.left, .bh_event_slide .carousel-control.right {
+  background: none !important;
+  filter: progid: none !important;
+  outline: 0;
+  font-size: 28px;
+  color: #b1b3aa;
+  text-shadow: none;
+ }
+.bh_event_slide .carousel .carousel-control {
+  visibility: visible;
+}
+.bh_event_slide .carousel:hover .carousel-control {
+  visibility: visible;
+}
+.bh_event_slide .carousel-control.left {
+    position: absolute;
+    bottom: 70%;
+    left: 350px;
+    width: 15%;
+	margin-top: 65px;
+}
+
+.bh_event_slide .carousel-control.right {
+    position: absolute;
+    bottom: 70%;
+    right: 350px;
+    width: 15%;
+	margin-top: 65px;
+}
+.bh_event_slide_d{
+	padding: 76px 80px 0px 80px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+}
+/* ==============================================================
+					  9.0 Testimonial Css
+=================================================================== */
+.bh_testionial_section{
+	padding: 80px 0px 50px 0px;
+	text-align: left;
+}
+.bh_testimonial_text p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	padding-top: 60px;
+}
+p.bh_testimonial_title{
+	font-size: 24px;
+	font-weight: 400;
+	padding:24px 0px 10px 0px;
+	
+}
+.bh_testimonial_text small{
+	font-size: 14px;
+	font-weight: 700;
+}
+.bh_testionial_section .carousel-indicators{
+	top:119.3%;
+	
+}
+.bh_testionial_section  .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0px 15px;
+    background-color: #4d4336;
+}
+.bh_testionial_section  i{
+	display: inline-block;
+    border: 2px solid #4d4336;
+    color: #4d4336;
+    padding: 12px 12px;
+    font-size: 24px;
+    vertical-align: top;
+    margin-top: 26px;
+	margin-right: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.bh_testionial_section .carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color:#b3aaa1;
+    border: none;
+    border-radius: 10px;
+	margin: 0px 15px;
+}
+.bh_testominal_credit{
+	display: inline-block;
+}
+/* ==============================================================
+					  10.0 Pricing Css
+=================================================================== */
+#pricing{
+	background: #eef0e4;
+	
+}
+.bh_pricing_details{
+	padding: 73px 0px;
+}
+.bh_pricing_details p{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.bh_price_col{
+	background: #fafcf0;
+	border:2px solid #d2d4c9;
+	border-radius: 10px;
+	text-align: center;
+	padding: 55px 0px 40px 0px;
+	-webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-property: color, background-color,border-color;
+  transition-property: color, background-color,border-color;
+}
+.bh_price_col h2.bh_price_title{
+	font-size: 24px;
+	font-weight: 800;
+	color: #4c4336;
+	text-transform: uppercase;
+}
+.bh_price_col p.bh_price_subtitle{
+	font-size: 18px;
+	
+}
+ul.bh_price_content{
+	margin: 30px 0;
+	padding: 0;
+}
+ul.bh_price_content li{
+	list-style: none;
+	font-size: 16px;
+	color: #4c4336;
+	line-height: 32px;
+}
+h3.bh_amount_tag{
+	width: 100%;
+    background: #4c4336;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 11px 0px;
+    line-height: 30px;
+}
+a.bh_pricing_btn{
+	margin-top: 40px;
+	color:#4c4336;
+	text-decoration: none;
+	border:1px solid #4c4336;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 13px 17px;
+}
+.bh_featured_pricing{
+	background: #635746 !important;
+	border:2px solid #4d4336 !important;
+	-webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.bh_featured_pricing h2.bh_price_title,.bh_featured_pricing p.bh_price_subtitle,.bh_featured_pricing ul.bh_price_content li{
+	color: #ffffff;
+}
+.bh_featured_pricing h3.bh_amount_tag{
+	background:#fafcf0;
+	color: #4c4336;
+}
+.bh_featured_pricing a.bh_pricing_btn{
+	color:#ffffff;
+	text-decoration: none;
+	border:1px solid #fafcf0;
+}
+.bh_price_col:hover{
+	background: #635746 !important;
+	border:2px solid #4d4336 !important;
+}
+.bh_price_col:hover a.bh_pricing_btn{
+	color: #fafcf0;
+	border-color: #fafcf0;
+}
+.bh_price_col:hover h2.bh_price_title,.bh_price_col:hover p.bh_price_subtitle{
+	color: #fafcf0;
+}
+.bh_price_col:hover ul.bh_price_content li{
+	color: #fafcf0;
+}
+
+.bh_price_col:hover h3.bh_amount_tag{
+	background: #fafcf0;
+	color: #4c4336;
+}
+.bh_featured_pricing:hover{
+	background: #423a2e !important;
+	border:2px solid #423a2e !important;
+}
+.bh_featured_pricing:hover h3.bh_amount_tag{
+	background: #fafcf0;
+	color: #423a2e;
+}
+.bh_featured_pricing:hover a.bh_pricing_btn{
+	color: #ffffff;
+	border-color: #ffffff;
+}
+.bh_featured_pricing:hover h2.bh_price_title,.bh_featured_pricing:hover p.bh_price_subtitle{
+	color: #ffffff;
+}
+.bh_featured_pricing:hover ul.bh_price_content li{
+	color: #ffffff;
+}
+
+#pricing .carousel-control.left{
+    left: -10%;
+	top:45%;
+	height: 10px;
+}
+#pricing .carousel-control.right {
+    right: -9%;
+	top:45%;
+	height: 10px;
+}
+.bh_get_queto_button{
+	color: #4c4336;
+	border: 2px solid #4c4336;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: 800;
+	padding: 15px 40px;
+	margin-top: 80px;
+}
+.bh_get_queto_button:hover{
+	color: #e4e6da;
+	border: 2px solid #4c4336;
+	background: #4c4336;
+}
+/* ==============================================================
+					  11.0 Contact Css
+=================================================================== */
+.bh_contact{
+	padding-top: 80px;
+}
+.bh_contact .form-control{
+	-moz-border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+	border-radius: 5px !important;
+}
+.bh_contact .form-control:focus {
+  border: 1px solid #4d4336 !important;
+  outline: 0;
+  box-shadow: none;
+}
+.bh_contact .input-group{
+	float:left !important;
+	padding:0px 15px !important;
+}
+.bh_contact .input-group input{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	border:1px solid #bdbfb2 !important;
+	background:#d2d4c9 !important;
+	height:60px;
+}
+.bh_msz_box textarea.form-control {
+    height: 200px;
+	background: #d2d4c9 !important;
+	margin: 30px 0px;
+	border-color: #bdbfb2 !important;
+	padding: 20px 15px;
+}
+.bh_btn_block .main-btn{
+	color: #4c4336;
+	border: 2px solid #4c4336;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: 800;
+	padding: 15px 40px;
+	margin-top: 50px;
+	background: #e4e6da;
+}
+.bh_btn_block .main-btn:hover{
+	color: #e4e6da;
+	border: 2px solid #4c4336;
+	background: #4c4336;
+}
+.bh_contact .input-group input,.bh_contact .input-group textarea{
+	font-size: 16px;
+	padding-left: 30px;
+	
+}
+/* ==============================================================
+					  12.0 Footer Css
+=================================================================== */
+.bh_main_footer{
+	background: #4d4336;
+	color: #eef0e4;
+	padding: 71px 0px 81px 0px;
+}
+h2.bh_footer_thanks{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 40px;
+}
+.bh_addressbar i{
+	display: inline-block;
+	font-size: 50px;
+	padding-right: 10px;
+}
+p.bh_address{
+	font-size: 18px;
+	font-weight: 700;
+	display: inline-block;
+}
+h2.bh_footer_follow{
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 55px;
+	text-align: right;
+	
+}
+.bh_social_icons{
+	float: right;
+}
+.bh_social_icons a{
+	background:#eef0e4;
+	text-align: center;
+	min-width: 30px;
+	padding: 3px 4px !important;
+	margin: 0px 3px;
+}
+.bh_social_icons a i{
+	color: #4d4336;
+	
+}
+.bh_copyright_footer{
+	background:#423a2e;
+	padding: 20px 0px;
+}
+.bh_copyright_footer h6{
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+}

@@ -1,0 +1,423 @@
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #d2d4c9;
+}
+/**Mobile Css**/
+@media (max-width:767px){
+	
+	.bh_header_section {
+    background: #eef0e4;
+    max-height: 120px;
+}
+	.bh_hero_caption {
+    right: auto;
+    left: auto;
+    padding-bottom: 30px;
+    position: static;
+    bottom: auto;
+    z-index: 10;
+    padding-top: 150px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.bh_hero_caption h1 {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 300;
+}
+	.bh_hero_image{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bh_hero_image.jpg) center center no-repeat;	
+}
+.bh_site_name {
+    font-family: kittenslant;
+    font-size: 30px;
+	}
+	header.sticky {
+	width:100%;
+	position: fixed;
+  height: 60px;
+  background:rgba(238,240,228,.8);
+  text-align: left;
+	top:0px;
+	z-index: 99999;
+}
+header.sticky .bh_nav .navbar{
+	min-height: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0;
+}
+header.sticky .bh_logo{
+	padding: 0px 0px;
+}
+header.sticky .bh_site_name {
+    font-family: kittenslant;
+    font-size: 25px;
+    color: #4d4336;
+    line-height: 35px;
+}
+header.sticky .navbar-nav{
+	background: rgba(228,230,218,1);
+}
+.bh_shadow_text{
+	margin-top: -20px;
+	font-size: 40px;
+	line-height: 40px;
+}
+.bh_heading_text h1 {
+position: absolute;
+top: 10%;
+left: 0;
+width: 100%;
+text-align: center;
+z-index: 200;
+font-size: 21px;
+font-weight: 800;
+line-height: 21px;
+text-transform: uppercase;
+}
+	.bh_service_promo {
+    width: 100%;
+    margin: 29px 0px 30px 0px;
+}
+	.bh_promo_details {
+    padding-top: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: left;
+}
+	.bh_promo_details h2 {
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+	.bh_service_promo img {
+    background: #ffffff;
+    padding: 30px;
+    margin: 20px 0px;
+	}
+	.bh_about_box {
+    margin: 29px 0px 0px 0px;
+}
+	.bh_bottom_slider .carousel-indicators {
+    bottom: 0;
+    left: 20%;
+    margin-left: 5px;
+    width: 100%;
+    display: none;
+}
+	.bh_image_about img {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 35px;
+}
+	.bh_about_article {
+    padding: 0px 10px;
+}
+		.bh_event_slide .carousel-control.left {
+  position: absolute;
+bottom: auto;
+left: 26px !important;
+width: 15%;
+margin-top: 65px !important;
+font-size: 18px;
+top: 17.5% !important;
+}
+	.bh_event_slide .carousel-control.right {
+   position: absolute;
+bottom: auto;
+right: 26px !important;
+width: 15%;
+margin-top: 65px !important;
+font-size: 18px;
+top: 17.5% !important;
+}
+	.bh_event_slide_d {
+    padding: 36px 12px 0px 12px;
+	}
+	.bh_testionial_section .carousel-indicators {
+    top: 104.3%;
+}
+	.bh_pricing_details {
+    padding: 29px 0px;
+}
+	.bh_price_col {
+    background: #fafcf0;
+    border: 2px solid #d2d4c9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 55px 0px 40px 0px;
+    margin-bottom: 20px;
+}
+	.bh_contact {
+    padding-top: 15px;
+}
+	.bh_contact .input-group {
+    float: left !important;
+    padding: 0px 15px !important;
+    margin-bottom: 20px;
+}
+	.bh_btn_block .main-btn{
+		margin-top: 0px;
+		
+	}
+	h2.bh_footer_thanks {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+	p.bh_address {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+}
+	h2.bh_footer_follow {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 55px;
+    text-align: left;
+    margin-top: 30px;
+}
+	.bh_social_icons a {
+    background: #eef0e4;
+    text-align: center;
+    min-width: 29px;
+    padding: 3px 4px !important;
+    margin: 0px 3px;
+}
+	.bh_social_icons {
+    float: left;
+    text-align: center;
+}
+	p.bh_testimonial_title {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 24px 0px 10px 0px;
+}
+	.bh_testimonial_photo img{
+		margin: 0 auto;
+		display: block;
+	}
+	.navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+/**Tab Css**/
+@media (max-width: 1200px){
+	
+	.navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background: #eef0e4;
+margin-left: -32px;
+}
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+		
+    }
+	
+.bh_hero_caption {
+    right: 5%;
+    left: 5%;
+    padding-bottom: 30px;
+    position: absolute;
+    bottom: 30%;
+    z-index: 10;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+	
+	.bh_hero_caption h1 {font-size: 35px;line-height: 45px;}
+	
+	header.sticky .bh_site_name {
+    font-family: kittenslant;
+    font-size: 25px;
+    color: #4d4336;
+    line-height: 25px;
+}
+	header.sticky .navbar-nav{
+	background: rgba(228,230,218,1);
+}
+	.bh_event_slide .carousel .carousel-control {
+  visibility: hidden;
+}
+.bh_event_slide .carousel:hover .carousel-control {
+  visibility:hidden;
+}
+}
+
+@media (max-width: 991px){
+	.bh_promo_details h2 {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+	.bh_promo_details {
+    padding-top: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+	.bh_right {
+    text-align: left !important;
+padding: 65px 5px 45px 5px;
+}
+	.bh_service_promo img {
+    background: #ffffff;
+    padding: 30px;
+    margin: 40px 0px;
+}
+	.portfolio-section  .container{
+		padding-left: 0px !important;
+	}
+	.bh_event_heading {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 30px;
+    background: #dcded3;
+    padding: 38px 0px;
+	
+}
+	.bh_event_slide .carousel-control.left {
+    position: absolute;
+    bottom: auto;
+    left: 170px;
+    width: 15%;
+    margin-top: 65px;
+    font-size: 18px;
+    top: -22px;
+}
+	.bh_event_slide .carousel-control.right {
+    position: absolute;
+    bottom: auto;
+    right: 170px;
+    width: 15%;
+    margin-top: 65px;
+    font-size: 18px;
+    top: -22px;
+}
+	.bh_event_slide_d {
+    padding: 40px 20px 0px 20px;
+	}
+	.bh_testionial_section .carousel-indicators {
+    top: 108.3%;
+}
+	.bh_price_col {
+    background: #fafcf0;
+    border: 2px solid #d2d4c9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 55px 0px 40px 0px;
+    margin-bottom: 40px;
+}
+	.bh_contact .input-group {
+    float: left !important;
+    padding: 0px 15px !important;
+    margin-bottom: 30px;
+}
+	.bh_btn_block .main-btn{
+		margin-top: 0px;
+	}
+	h2.bh_footer_follow {
+    text-align: left;
+    padding-top: 30px;
+}
+	.bh_social_icons {
+    float: left;
+}
+.navbar-toggle{
+	margin-top: 5px !important;	
+	}
+
+.bh_gallery  .filter-container {
+    text-align: center;
+}
+.bh_gallery  ul.filter > li > a {
+  color: #998c7a;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 28px;
+font-weight: bold;
+padding: 0px 5px;
+}
+.bh_event_slide img {
+    min-width: 100%;
+}
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    overflow: hidden;
+}
+}
+/**Retina Css**/
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+.bh_hero_image{
+	background: url(../img/retina_bh_hero_image.jpg) no-repeat;	
+}
+}
